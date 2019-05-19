@@ -33,19 +33,38 @@
   
 - java 파일 하나에 한개의 public class 만을 가지도록 하며 inner class 를 사용하지 않는다.
 
-### Rest controll (endpoint) 클래스
+- 변수명은 반드시 소문자로 시작하며 카멜 표기법을 사용한다.
+
+### Endpoint 클래스
 
 - 메소드 명칭은 카멜 표기법을 사용한다.
   - getCompany, getDept, getDepartment
   
-- 메소드명은 어떤 행위를 위한 기능인지 prefix 로 명시한다.
+- 메소드명은 어떤 행위를 위한 기능인지 prefix 로 명시하고 상세 행위를 postfix 로 사용한다.
   
   | http method | prefix | method name |
   |:-----------:|:------:|:-----------|
   |GET|get|**get**Company|
-  |GET|get|**get**Company|
+  |GET|get|**get**Company**List**|
   |POST|create|**create**Company|
   |PUT|update|**update**Company|
   |DELETE|delete|**delete**Company|
   
-  
+### Service 클래스
+
+  - 메소드 명칭은 카멜 표기법을 사용한다.
+  - 특별한 경우가 아닌경우 endpoint 메소드와 service 의 메소드는 1:1의 관계를 갖는다.
+  - 1:1 관계의 서비스 메소드는 endpoint 의 메소드명과 동인한 이름을 사용한다.
+    - endpoint : getCompany 
+    - service : getCompany
+    
+### Repository, Mapper 인터페이스
+
+  - DB 에 접근하여 수행할 작업을 메소드명에 prefix 로 명시한다.
+
+| job | prefix | method name |
+|:-----------:|:------:|:-----------|
+|select|find|**find**ByCompany|
+|insert|create|**create**Company|
+|update|update|**update**Company|
+|delete|delete|**delete**Company|
