@@ -61,7 +61,7 @@
 
 | job | prefix | method name |
 |:-----------:|:------:|:-----------|
-|select|find|**find**ByCompany|
+|select|find|**find**Company|
 |insert|create|**create**Company|
 |update|update|**update**Company|
 |delete|delete|**delete**Company|
