@@ -6,12 +6,12 @@
 
 ## 0. 공통규칙
 
-### java 의 표기법은 파스칼 표기법과 카멜 표기법을 기본으로 사용한다.
+#### java 의 표기법은 파스칼 표기법과 카멜 표기법을 기본으로 사용한다.
 
 - 파스칼 표기법 : 모든 단어에서 첫번째 문자는 대문자이며 나머지는 소문자이다.(예: PascalCase)
 - 카멜 표기법 : 최초에 사용된 단어를 제외한 첫번째 문자가 대문자이며 나머지는 소문자이다.(예: camelCase)
 
-### 명칭에 대한 약어는 가급적 사용을 지양한다. (약어가 보편적으로 널리 알려진 경우 사용한다.)
+#### 명칭에 대한 약어는 가급적 사용을 지양한다. (약어가 보편적으로 널리 알려진 경우 사용한다.)
 
 - PostOffice (O), PstOff (X)
 - Education (O), edu(O)
@@ -35,7 +35,7 @@
 
 - 변수명은 반드시 소문자로 시작하며 카멜 표기법을 사용한다.
 
-### Endpoint 클래스
+#### Endpoint 클래스
 
 - 메소드 명칭은 카멜 표기법을 사용한다.
   - getCompany, getDept, getDepartment
@@ -50,7 +50,7 @@
   |PUT|update|**update**Company|
   |DELETE|delete|**delete**Company|
   
-### Service 클래스
+#### Service 클래스
 
   - 메소드 명칭은 카멜 표기법을 사용한다.
   - 특별한 경우가 아닌경우 endpoint 메소드와 service 의 메소드는 1:1의 관계를 갖는다.
@@ -58,7 +58,7 @@
     - endpoint : getCompany 
     - service : getCompany
     
-### Repository, Mapper 인터페이스
+#### Repository, Mapper 인터페이스
 
   - DB 에 접근하여 수행할 작업을 메소드명에 prefix 로 명시한다.
 
