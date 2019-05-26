@@ -30,7 +30,7 @@ sh 파일 생성 후 내용으로 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-a
 path 정보는 재로그인시 부터 적용된다고 함
   
 ### 참고
-<https://ark1230.tistory.com/44>
+<https://ark1230.tistory.com/44>  
 <https://vitux.com/how-to-setup-java_home-path-in-ubuntu/>
   
   
