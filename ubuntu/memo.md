@@ -10,7 +10,7 @@ root 아래에 사용될 일반 유저정보 추가
   
   
   
-## jdk 설치 및 JAVA_HOME path 
+## jdk 설치 및 JAVA_HOME path 설정
 ```console
 sudo apt-get install openjdk-8-jdk
 ```
