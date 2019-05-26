@@ -3,10 +3,13 @@
 ```console
 sudo /etc/sudoers  
 ```
+```bash
+...
 root       ALL=(ALL)    ALL  
 {계정명}    ALL=(ALL)    ALL  
-  
-root 아래에 사용될 일반 유저정보 추가
+...
+```
+root 아래에 권한이 부여될 계정정보 추가
   
   
   
@@ -15,7 +18,9 @@ root 아래에 사용될 일반 유저정보 추가
 sudo apt-get install openjdk-8-jdk
 ```
   
+주의 :  
 /etc/enviroment 파일을 수정할 경우 문제가 발생할 수 있다고 함.  
+아래와 같이 bash 파일을 생성할것을 권장  
   
 ```console
 sudo vi /etc/profile.d/java.sh
