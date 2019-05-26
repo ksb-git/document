@@ -10,9 +10,9 @@ root       ALL=(ALL)    ALL
 ...
 ```
 root 아래에 권한이 부여될 계정정보 추가
-  
-  
-  
+
+---
+
 ## jdk 설치 및 JAVA_HOME path 설정
 ```console
 sudo apt-get install openjdk-8-jdk
@@ -32,9 +32,9 @@ path 정보는 재로그인시 부터 적용된다고 함
 ### 참고
 <https://ark1230.tistory.com/44>  
 <https://vitux.com/how-to-setup-java_home-path-in-ubuntu/>
-  
-  
-  
+
+---
+
 ## 데스크탑 or 메뉴에 프로그램 생성
 ```console
 sudo apt  install --no-install-recommends gnome-panel  
