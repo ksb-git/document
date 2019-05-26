@@ -5,8 +5,15 @@
 sudo /etc/sudoers  
   
 root    ALL=(ALL)    ALL  
-{계정명}    ALL=(ALL)    ALL
+{계정명}    ALL=(ALL)    ALL  
+  
+ 
+## 데스크탑 or 메뉴에 프로그램 생성
 
-
-##
-
+sudo apt  install --no-install-recommends gnome-panel  
+  
+sudo gnome-desktop-item-edit --create-new {경로 및 .desktop 파일명}  
+  
+  
+  
+  
