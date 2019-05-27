@@ -21,14 +21,9 @@
 - 수정됨 : u
 
 ```java
-  # 신규생성
   ExEntity exEnt = new ExEntity();
-  ...
   ExEntity cExEnt = exRepo.saveAndFlush(exEnt);
-  
-  # 업데이트
+
   ExEntity sExEnt = exRepo.findById(id);
-  ...
   ExEntity uExEnt = exRepo.saveAndFlush(sExEnt);
 ```
-  
