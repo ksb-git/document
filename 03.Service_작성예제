@@ -20,7 +20,7 @@
 - 조회됨 : s
 - 수정됨 : u
 
-```java
+``` java
   # 신규생성
   ExEntity exEnt = new ExEntity();
   ...
