@@ -22,9 +22,11 @@
 
 
 ```java
+
   ExEntity exEnt = new ExEntity();
   ExEntity cExEnt = exRepo.saveAndFlush(exEnt);
 
   ExEntity sExEnt = exRepo.findById(id);
   ExEntity uExEnt = exRepo.saveAndFlush(sExEnt);
+
 ```
