@@ -17,8 +17,7 @@ http://blog.leekyoungil.com/?p=219
 ```cosole
 ps aux | grep {프로세스명}
 
-프로세스번호 획득
+#프로세스번호 획득
 
 ls -l /proc/{프로세스번호}/fd/ | wc -l
-
 ```
