@@ -20,7 +20,8 @@
 - 조회됨 : s
 - 수정됨 : u
 
-```console
+
+```java
   ExEntity exEnt = new ExEntity();
   ExEntity cExEnt = exRepo.saveAndFlush(exEnt);
 
